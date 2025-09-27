@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="WORKSHOP 1"
-config/features=PackedStringArray("4.5", "Mobile")
+config/name="NEW GAME"
+config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
 [rendering]
