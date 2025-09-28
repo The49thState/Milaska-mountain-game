@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://bu5q66rgp35ja"]
+
+[ext_resource type="Script" uid="uid://b7uy6xqqacx" path="res://node_2d.gd" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_wtcfe")
+
+[node name="green" type="Button" parent="."]
+offset_left = 431.0
+offset_top = 186.0
+offset_right = 595.0
+offset_bottom = 217.0
+text = "choose player green"
+
+[node name="blue" type="Button" parent="."]
+offset_left = 632.0
+offset_top = 188.0
+offset_right = 796.0
+offset_bottom = 219.0
+text = "choose player blue"
+
+[connection signal="pressed" from="green" to="." method="_on_green_pressed"]
+[connection signal="pressed" from="blue" to="." method="_on_blue_pressed"]
